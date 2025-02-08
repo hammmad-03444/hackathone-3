@@ -86,7 +86,7 @@ export default function SlugPage({ params }: { params: { id: string } }) {
     };
 
     fetchProduct();
-  }, [params.id]);
+  }, [params.id, showLoader, hideLoader]);
                  
  
   if (loading) {

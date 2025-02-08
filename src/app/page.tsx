@@ -20,11 +20,9 @@ export default function Home() {
     <Hero/>
     <Brands/>
 
-    {/* <NewArivel/>
-    <BestSelling/> */}
     <Product/>
     <Top_sell/>
-    {/* <Dress/> */}
+    
     <DressStyle/>
     <CustomerCarousel/>
     
